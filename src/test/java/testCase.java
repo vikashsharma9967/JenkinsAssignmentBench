@@ -15,6 +15,7 @@ public class testCase {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.amazon.com");
         System.out.println("Page Title :- "+ driver.getTitle());
+        System.out.println("Testing Amazon");
         System.out.println("Website launch successfully");
         driver.close();
     }
